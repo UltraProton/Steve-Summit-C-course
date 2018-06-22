@@ -1,6 +1,6 @@
 #include<string.h>
 
-void strcpyptrs1(char *src, char *dest){
+void strcpyptrs1(char *dest, char *src){
 	int len=strlen(src);  // strlen() returns length of string excluding the NULL character.
 
 	char *ptr=&src[len+1];  // We can get the pointer to the location which is one away from the last element of array to use it in pointer comparisons

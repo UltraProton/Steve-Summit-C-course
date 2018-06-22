@@ -1,5 +1,5 @@
 
-void strcpyptrs(char *src, char *dest){
+void strcpyptrs(char *dest, char *src){
 	while(*src !='\0'){
 		*dest++= *src++;
 	} 
